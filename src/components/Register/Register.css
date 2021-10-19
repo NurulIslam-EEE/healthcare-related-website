@@ -1,0 +1,10 @@
+.register input,
+.register button {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+.signup-img img {
+  height: 70%;
+  width: 100%;
+}

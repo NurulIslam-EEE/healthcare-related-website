@@ -1,0 +1,31 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+}
+nav {
+  margin-right: 30px;
+  font-size: 20px;
+}
+.profile {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+@media only screen and (max-width: 600px) {
+  .nav .nav-res {
+    display: block !important;
+  }
+}

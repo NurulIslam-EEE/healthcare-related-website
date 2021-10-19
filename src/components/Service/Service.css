@@ -1,0 +1,20 @@
+.card-img {
+  width: 100%;
+  height: 35vh;
+  transition: 0.7s;
+}
+.card-img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.card-btn {
+  background-color: #fb5b21;
+  padding: 5px 30px;
+  border: 2px solid #fb5b21;
+  border-radius: 20px;
+  color: white;
+}
+.card-btn:hover {
+  background-color: transparent;
+  color: black;
+}
