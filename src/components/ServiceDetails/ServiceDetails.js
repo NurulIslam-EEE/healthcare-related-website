@@ -1,13 +1,27 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import useService from '../../hooks/useService';
+import './ServiceDetails.css'
 
 const ServiceDetails = () => {
-    const { services } = useService();
     const { Id } = useParams();
+    const [details, setDetails] = useState([]);
+    useEffect(() => {
+        fetch('/data.json')
+            .then(res => res.json())
+            .then(data => setDetails((data)))
+    }, [Id])
+    const singleDetails = details.find(detail => detail?._id === Id);
+    console.log(singleDetails);
     return (
-        <div>
-            <h1>{Id}</h1>
+        <div className='m-2 row'>
+            <div className="col-md-6 details">
+                <h1>{singleDetails?.name}</h1>
+
+                <p>{singleDetails?.description}</p>
+            </div>
+            <div className="col-md-6">
+                <img className='details-img' src={singleDetails?.picture} alt="" />
+            </div>
         </div>
     );
 };

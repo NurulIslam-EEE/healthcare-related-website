@@ -1,5 +1,4 @@
 body {
-  box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -24,8 +23,15 @@ nav {
   border-radius: 50%;
   margin: 0 5px;
 }
+.logout,
+.header-login {
+  background-color: coral;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+}
 @media only screen and (max-width: 600px) {
-  .nav .nav-res {
-    display: block !important;
+  .nav {
   }
 }

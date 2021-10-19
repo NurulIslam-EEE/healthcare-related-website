@@ -7,10 +7,12 @@ const Services = () => {
     console.log(services);
     return (
         <div>
-            <h1>this is services</h1>
+            <h1>OUR TRAINING <span>COURSES</span> </h1>
             <div className="m-5 row">
                 {
-                    services.map(service => <Service service={service}></Service>)
+                    services.map(service => <Service
+                        key={service._id}
+                        service={service}></Service>)
 
                 }
             </div>

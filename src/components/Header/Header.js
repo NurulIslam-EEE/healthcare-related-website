@@ -20,11 +20,11 @@ const Header = () => {
                 >
                     <Nav.Link as={Link} className='text-white nav-res' to="/home">Home</Nav.Link>
                     <Nav.Link as={Link} className='text-white nav-res' to="/services">Services</Nav.Link>
-                    <Nav.Link as={Link} className='text-white nav-res' to="/">Blogs</Nav.Link>
-                    <Nav.Link as={Link} className='text-white nav-res' to="/">Trainers</Nav.Link>
-                    <p className='text-white'>{user.displayName}</p>
-                    {user.email && <img className='profile' src={user.photoURL} alt="" />}
-                    {!user?.displayName ? <Nav.Link as={Link} className='text-white' to="/login">Login</Nav.Link> : <button onClick={logOut}>Logout</button>}
+                    <Nav.Link as={Link} className='text-white nav-res' to="/blogs">Blogs</Nav.Link>
+                    <Nav.Link as={Link} className='text-white nav-res' to="/about">About</Nav.Link>
+                    <p className='text-white'>{user?.displayName}</p>
+                    {user?.email && <img className='profile' src={user?.photoURL} alt="" />}
+                    {!user?.email ? <Nav.Link as={Link} className='text-white header-login' to="/login">Login</Nav.Link> : <button className='logout' onClick={logOut}>Logout</button>}
 
 
 

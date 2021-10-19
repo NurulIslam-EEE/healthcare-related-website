@@ -1,0 +1,14 @@
+.blog-img {
+  height: 40vh;
+  width: 90%;
+}
+.blog-trend button {
+  background-color: transparent;
+  border: 3px solid #fb5b21;
+  padding: 5px 10px;
+}
+.blog-trend button:hover {
+  background-color: #fb5b21;
+  border: 3px solid #fb5b21;
+  color: white;
+}

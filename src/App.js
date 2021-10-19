@@ -11,6 +11,9 @@ import NotFound from './components/NotFound/NotFound';
 import Services from './components/Services/Services';
 import Home from './components/Home/Home';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
+import About from './components/About/About';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
   return (
@@ -32,12 +35,18 @@ function App() {
             <Route path='/register'>
               <Register></Register>
             </Route>
+            <Route path='/about'>
+              <About></About>
+            </Route>
             <Route path='/services'>
               <Services></Services>
             </Route>
 
-            <Route path='/service/:Id'>
+            <PrivateRoute path='/service/:Id'>
               <ServiceDetails></ServiceDetails>
+            </PrivateRoute>
+            <Route path='/blogs'>
+              <Blogs></Blogs>
             </Route>
             <Route path='*'>
               <NotFound></NotFound>
