@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import useService from '../../hooks/useService';
 import Service from '../Service/Service';
 
@@ -7,8 +7,9 @@ const Services = () => {
     console.log(services);
     return (
         <div>
-            <h1>OUR TRAINING <span>COURSES</span> </h1>
-            <div className="m-5 row">
+
+            <div className="m-0 row">
+                <h1 className='p-3'>OUR TRAINING <span>COURSES</span> </h1>
                 {
                     services.map(service => <Service
                         key={service._id}

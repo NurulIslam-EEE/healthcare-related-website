@@ -2,21 +2,24 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../images/banner.jpg");
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-position: center;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  object-fit: cover;
 }
 .title {
   color: white;
+  padding: 10px;
 }
 .title button {
   background: transparent;
   color: white;
-  border: 2px solid #f69431;
+  border: 2px solid hsl(30, 92%, 58%);
   border-radius: 20px;
   padding: 7px 23px;
+}
+.title button:hover {
+  background-color: hsl(30, 92%, 58%);
 }

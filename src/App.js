@@ -17,9 +17,8 @@ import Blogs from './components/Blogs/Blogs';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <AuthProvider>
-
         <Router>
           <Header></Header>
           <Switch>

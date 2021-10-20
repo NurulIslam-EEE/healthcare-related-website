@@ -3,13 +3,15 @@
       "_id": "f60",
       "picture": "https://static.india.com/wp-content/uploads/2020/08/Intense-workout.jpg",
       "name": "Weight Loss",
-      "description": "Are you looking to shed some pounds with a weight loss program and get into that lean shape you desire? Iconic Fitness have helped many of our clients reach this objective with a combination of weight loss exercises and eating plans. See the programs we offer at our gym in Dubai Marina that will help you achieve this goal and maintain your overall health."
+      "description": "Are you looking to shed some pounds with a weight loss program and get into that lean shape you desire? Iconic Fitness have helped many of our clients reach this objective with a combination of weight loss exercises and eating plans. See the programs we offer at our gym in Dubai Marina that will help you achieve this goal and maintain your overall health.",
+      "fee":"$ 70/month"
     },
     {
       "_id": "f61",
       "picture": "https://www.proclub.com/src/assets/images/fitnessSport/PersonalTraining/FITNESSANDSPORTS_H_PERSONALTRAINING_4K_01082019.webp",
       "name": "Personal Training",
-      "description": "At our gym in Dubai Marina we understand our clients have specific goals from fixing their lower back, to having a dedicated personal trainer as well as going through a full body transformation! Learn more about the specialised training we offer"
+      "description": "At our gym in Dubai Marina we understand our clients have specific goals from fixing their lower back, to having a dedicated personal trainer as well as going through a full body transformation! Learn more about the specialised training we offer",
+      "fee":"$ 50/month"
     },
     {
       "_id": "f62",
@@ -21,36 +23,42 @@
       "_id": "f63",
       "picture": "https://iconicfitness.ae/wp-content/uploads/2020/08/strengthconditioning-457x300-1.jpg",
       "name": "Strength Training",
-      "description": "If you're interested in specifically getting stronger, lifting heavier,and doing more pull-ups than ever before, this is the program for you. We have specifically crafted the best strength training program after years in the fitness industry to help you smash through any plateaus and get you performing better than ever.Why is strength training important? It's a fact that every other type of fitness and sport is improved if you improve your strength! That doesn't mean you need to get bigger (although we can help with that too), just increase your strength to bodyweight ratio. And your fitness doesn't need to suffer! Using barbells, sleds, tire, sandbags and just about anything else you can think of, we'll get you great results and have a blast doing it Programming to gain strength (while maintaining a great base of fitness) is an art- and in the realm, we are like Picasso. Follow our strength training program and we promise your performance will be better than ever!"
+      "description": "If you're interested in specifically getting stronger, lifting heavier,and doing more pull-ups than ever before, this is the program for you. We have specifically crafted the best strength training program after years in the fitness industry to help you smash through any plateaus and get you performing better than ever.Why is strength training important? It's a fact that every other type of fitness and sport is improved if you improve your strength! That doesn't mean you need to get bigger (although we can help with that too), just increase your strength to bodyweight ratio. And your fitness doesn't need to suffer! Using barbells, sleds, tire, sandbags and just about anything else you can think of, we'll get you great results and have a blast doing it Programming to gain strength (while maintaining a great base of fitness) is an art- and in the realm, we are like Picasso. Follow our strength training program and we promise your performance will be better than ever!",
+      "fee":"$ 80/month"
     },
     {
       "_id": "f64",
       "picture": "https://iconicfitness.ae/wp-content/uploads/2020/08/elements-457x300-1.jpg",
       "name": "30-Day Beginner's CrossFit Program",
-      "description": "Have you heard CrossFit is great and you'd love to try it out? But you're afraid that you aren fit enough or won't know what to do? Don't worry, we've got you covered with our 30-Day Beginner's CrossFit Challenge! In 30-days, we are going to teach you everything you need to know to join CrossFit classes comfortably and get the MOST out of them. We start you out with 2 personal training sessions with one of our experienced CrossFit coaches so you get to learn from the beginning without the stress of a full class.During the 30 days, we also introduce you to our trademark nutritional philosophy and you get to feel what it's like when an entire community is there to support you. We believe that training with friends makes you want to keep coming back and we're not afraid to boast that we have the BEST community for training in town. So don't wait, join our 30-day trial today!"
+      "description": "Have you heard CrossFit is great and you'd love to try it out? But you're afraid that you aren fit enough or won't know what to do? Don't worry, we've got you covered with our 30-Day Beginner's CrossFit Challenge! In 30-days, we are going to teach you everything you need to know to join CrossFit classes comfortably and get the MOST out of them. We start you out with 2 personal training sessions with one of our experienced CrossFit coaches so you get to learn from the beginning without the stress of a full class.During the 30 days, we also introduce you to our trademark nutritional philosophy and you get to feel what it's like when an entire community is there to support you. We believe that training with friends makes you want to keep coming back and we're not afraid to boast that we have the BEST community for training in town. So don't wait, join our 30-day trial today!",
+      "fee":"$ 55/month"
     },
     {
       "_id": "f65",
       "picture": "https://bodyandstrength.com/Upload/site/dpgC5_cover.jpg",
       "name": "Nutrition Program",
-      "description": "If you haven't heard it before, then it's time to realise: nutrition make up at least 80% of the results you'll get, no matter what training you do. We know that it can be a minefield out there: What should I eat? When should I eat it? Are carbs good or bad? Should I be using low-fat milk? We strip all of this information (and misinformation) down for you and provide no-nonsense, easy-to-follow nutrition plans. After our initial discussion, we will put together a plan for your needs and guide you through it with the help of our entire coaching team. Need to change something? Don't worry, our plans are adaptable to any nutritional demands you might have.Don't worry, we are also not going to force you to starve yourself or weigh your food for every meal or even stop eating out. Your eating habits need to fit around your life- that's why we are giving you a new plan to eat for life?, not a short-term diet."
+      "description": "If you haven't heard it before, then it's time to realise: nutrition make up at least 80% of the results you'll get, no matter what training you do. We know that it can be a minefield out there: What should I eat? When should I eat it? Are carbs good or bad? Should I be using low-fat milk? We strip all of this information (and misinformation) down for you and provide no-nonsense, easy-to-follow nutrition plans. After our initial discussion, we will put together a plan for your needs and guide you through it with the help of our entire coaching team. Need to change something? Don't worry, our plans are adaptable to any nutritional demands you might have.Don't worry, we are also not going to force you to starve yourself or weigh your food for every meal or even stop eating out. Your eating habits need to fit around your life- that's why we are giving you a new plan to eat for life?, not a short-term diet.",
+      "fee":"$ 70/month"
     },
     {
       "_id": "f66",
       "picture": "https://www.muscleandfitness.com/wp-content/uploads/2019/02/1109-hammer-curl-biceps-abs.jpg?quality=86&strip=all",
       "name": "Quick Result Programme",
-      "description": "Due To Many Reasons Like Sedentary Lifestyle, Reduced Energy Expenditure, Unhealthy Eating Habits, High Stress Levels Etc. BMI And Body Fat Levels Are Increasing Day By Day Which Is Causing Obesity. And Obesity Further Leads To Medical Conditions Like High Cholesterol, High Blood Pressure, Heart Diseases, Stroke, Diabetes, PCOD, Hypothyroidism, Gall Stones, Depression, Knee Pain Etc.Hence Quick Result Program at Golds Gym Helps In Reducing Excess Fat Mass. It Is A Quick Way To Achieve Your Fitness Goals. This Program Not Only Make You Lose But Also Gain And Tone Up Your Body With The Help Of Fitness Orientation, Functional Training And Nutritional Counseling. This Program Is A Combination Of Cardio Training, High Intensity Functional Training, Nutritionist’s Support And Blood Tests. Here We Deliver On Time Results By Monitoring Them On Regular Basis"
+      "description": "Due To Many Reasons Like Sedentary Lifestyle, Reduced Energy Expenditure, Unhealthy Eating Habits, High Stress Levels Etc. BMI And Body Fat Levels Are Increasing Day By Day Which Is Causing Obesity. And Obesity Further Leads To Medical Conditions Like High Cholesterol, High Blood Pressure, Heart Diseases, Stroke, Diabetes, PCOD, Hypothyroidism, Gall Stones, Depression, Knee Pain Etc.Hence Quick Result Program at Golds Gym Helps In Reducing Excess Fat Mass. It Is A Quick Way To Achieve Your Fitness Goals. This Program Not Only Make You Lose But Also Gain And Tone Up Your Body With The Help Of Fitness Orientation, Functional Training And Nutritional Counseling. This Program Is A Combination Of Cardio Training, High Intensity Functional Training, Nutritionist’s Support And Blood Tests. Here We Deliver On Time Results By Monitoring Them On Regular Basis",
+      "fee":"$ 70/month"
     },
     {
       "_id": "f67",
       "picture": "https://pgathleticclub.com/wp-content/uploads/2017/12/PersonalTrainingImg.jpg",
       "name": "FITNESS CONSULTATION",
-      "description": "Through a short survey, conversation and a movement assessment, our team will prescribe the perfect program to get you started and on track to meet your fitness goals."
+      "description": "Through a short survey, conversation and a movement assessment, our team will prescribe the perfect program to get you started and on track to meet your fitness goals.",
+      "fee":"$ 90/month"
     },
     {
       "_id": "f68",
       "picture": "https://bodyandstrength.com/Upload/site/agamN_cover.jpg",
       "name": "MUSCLE BUILDING",
-      "description": "The first and most common mistake in bicep workouts is really overtraining. Biceps get a part of consideration at the gym and many people can overwork them in an attempt to get gains fast. When battling to develop your arms, it can be simple to just keep on including to your schedule, but this will effortlessly go off-base. Biceps are different from bigger muscle groups where additional workout is continuously way better."
+      "description": "The first and most common mistake in bicep workouts is really overtraining. Biceps get a part of consideration at the gym and many people can overwork them in an attempt to get gains fast. When battling to develop your arms, it can be simple to just keep on including to your schedule, but this will effortlessly go off-base. Biceps are different from bigger muscle groups where additional workout is continuously way better.",
+      "fee":"$ 79/month"
     }
   ]

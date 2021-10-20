@@ -2,8 +2,8 @@ import React from 'react';
 import './About.css';
 const About = () => {
     return (
-        <div className='m-3 row'>
-            <div className="col-md-6 about-text text-start">
+        <div className='m-0 row'>
+            <div className="p-3 col-md-6 about-text text-start">
                 <h1>ABOUT <span>ICONIC</span>  FITNESS</h1>
                 <p>Passionate about overcoming obstacles and celebrating the rewards of hard work. At Iconic Fitness, the workouts are challenging but accessible. Our athletes leave each day feeling accomplished: stronger, faster, fitter – healthier.
                     <br />
@@ -22,7 +22,7 @@ const About = () => {
                     </p>
                 </p>
             </div>
-            <div className="col-md-6">
+            <div className="p-3 col-md-6">
                 <img className='about-img' src="https://iconicfitness.ae/wp-content/uploads/2020/08/Photo-83-1536x1024.jpg" alt="" />
             </div>
 

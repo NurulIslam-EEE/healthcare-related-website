@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -13,24 +14,37 @@ body {
   padding: 10px 20px;
   width: 100%;
 }
-nav {
-  margin-right: 30px;
-  font-size: 20px;
+.nav {
+  margin-right: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav a:hover {
+  color: hsl(30, 92%, 58%) !important;
 }
 .profile {
   height: 50px;
   width: 50px;
   border-radius: 50%;
   margin: 0 5px;
+  background-color: white;
 }
 .logout,
 .header-login {
-  background-color: coral;
+  background-color: hsl(30, 92%, 58%);
+  border: 2px solid hsl(30, 92%, 58%);
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 17px;
   color: white;
   height: 40px;
 }
+.logout:hover,
+.header-login:hover {
+  background-color: transparent;
+}
+
 @media only screen and (max-width: 600px) {
   .nav {
   }

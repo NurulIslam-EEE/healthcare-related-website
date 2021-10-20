@@ -1,10 +1,18 @@
 .login input,
 .login button {
-  width: 80%;
-  margin: 10px;
+  width: 90%;
+  margin-top: 10px;
   padding: 10px;
 }
 .login-img img {
   height: 60%;
   width: 100%;
+}
+.login button {
+  background-color: white;
+  border: 2px solid black;
+}
+.login input {
+  border: 0;
+  border-bottom: 3px solid black;
 }

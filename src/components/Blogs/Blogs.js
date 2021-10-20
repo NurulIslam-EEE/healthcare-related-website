@@ -2,26 +2,29 @@ import React from 'react';
 import './Blogs.css';
 const Blogs = () => {
     return (
-        <div className='m-2 row'>
-            <h1> <span>Body</span>  and Strength Articles</h1>
-            <div className="col-md-7 text-start">
+        <div className='m-0 row'>
+            <h1 className='p-3'> <span>Body</span>  and Strength Articles</h1>
+            <div className="p-3 col-md-7 text-start blog-trend">
                 <h3>Newest Articles</h3>
                 <div>
-                    <img className='blog-img' src="https://bodyandstrength.com/Upload/site/agamN_cover.jpg" alt="" />
+                    <img className='blog-img' src="https://c4.wallpaperflare.com/wallpaper/692/659/618/man-workout-gym-working-wallpaper-preview.jpg" alt="" />
                     <h3>Workouts</h3>
                     <p>Why Your Biceps Are Not Growing? Time To Know Your Mistakes</p>
+                    <button>Read More</button>
 
                 </div>
                 <div>
                     <img className='blog-img' src="https://bodyandstrength.com/Upload/site/z9vhD_cover.jpg" alt="" />
                     <h3>Nutrition</h3>
                     <p>Top Air-Fryer Recipes for Weight-Loss</p>
+                    <button>Read More</button>
 
                 </div>
                 <div>
                     <img className='blog-img' src="https://bodyandstrength.com/Upload/site/mOFZr_cover.jpg" alt="" />
                     <h3> Supplementation</h3>
                     <p>How Multivitamins Help Your Workout to Be Effective</p>
+                    <button>Read More</button>
 
 
                 </div>
@@ -29,6 +32,7 @@ const Blogs = () => {
                     <img className='blog-img' src="https://bodyandstrength.com/Upload/site/hi1VS_cover%20.jpg" alt="" />
                     <h3> Fitness News</h3>
                     <p>Khelo India Youth Games to Postpone in February 2022</p>
+                    <button>Read More</button>
 
 
 
@@ -37,13 +41,14 @@ const Blogs = () => {
                     <img className='blog-img' src="https://bodyandstrength.com/Upload/site/bFme7_cover.jpg" alt="" />
                     <h3> Transformations</h3>
                     <p>Surin Sengar: Work even when Nobody is Watching, Be Self-Motivated!</p>
+                    <button>Read More</button>
 
 
 
 
                 </div>
             </div>
-            <div className="p-2 col-md-5 text-start blog-trend">
+            <div className="p-3 col-md-5 text-start blog-trend">
                 <h3>TRENDING ON BODY AND STRENGTH</h3>
                 <hr />
                 <div className='d-flex'>

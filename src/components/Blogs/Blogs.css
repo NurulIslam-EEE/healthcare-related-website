@@ -1,11 +1,12 @@
 .blog-img {
   height: 40vh;
-  width: 90%;
+  width: 98%;
 }
 .blog-trend button {
   background-color: transparent;
   border: 3px solid #fb5b21;
   padding: 5px 10px;
+  margin: 10px 0;
 }
 .blog-trend button:hover {
   background-color: #fb5b21;

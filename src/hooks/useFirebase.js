@@ -10,6 +10,7 @@ const useFirebase = () => {
     const [password, setPassword] = useState('');
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
+    const [error, setError] = useState('');
     console.log(password, email);
     const auth = getAuth();
 
@@ -17,23 +18,17 @@ const useFirebase = () => {
         setLoading(true);
         const googleProvider = new GoogleAuthProvider();
         return signInWithPopup(auth, googleProvider);
-    }
+    };
 
     const createUser = () => {
-        createUserWithEmailAndPassword(auth, email, password)
-            .then((result) => {
-                setUser(result.user);
-                console.log(user);
-            })
-            .catch((error) => {
-                const errorMessage = error.message;
+        return createUserWithEmailAndPassword(auth, email, password);
 
-            });
-    }
+    };
 
     const signin = () => {
         return signInWithEmailAndPassword(auth, email, password);
-    }
+    };
+
     useEffect(() => {
 
         const unsubscribed = onAuthStateChanged(auth, (user) => {
@@ -46,17 +41,20 @@ const useFirebase = () => {
             setLoading(false);
         });
         return () => unsubscribed;
-    }, [])
+    }, []);
 
     const setUserProfile = () => {
+        console.log(name);
         updateProfile(auth.currentUser, {
-            displayName: "Jane Q. User", photoURL: "https://example.com/jane-q-user/profile.jpg"
-        }).then(() => {
+            displayName: name, photoURL: "https://static.dw.com/image/19388520_303.jpg"
+        })
+            .then(() => {
 
-        }).catch((error) => {
+            }).catch((error) => {
 
-        });
-    }
+            });
+    };
+
     const logOut = () => {
         setLoading(true);
         signOut(auth)
@@ -67,7 +65,8 @@ const useFirebase = () => {
 
             })
             .finally(() => setLoading(false));
-    }
+    };
+
     return {
         signInUsingGoogle,
         loading,
@@ -77,7 +76,11 @@ const useFirebase = () => {
         setEmail,
         createUser,
         signin,
-        setLoading
+        setLoading,
+        error,
+        setError,
+        setUserProfile,
+        setName
     }
 };
 

@@ -7,6 +7,12 @@
   transform: scale(1.1);
   overflow: hidden;
 }
+.training-curd:hover {
+  box-shadow: 5px 5px 15px -4px;
+  border-left: 4px solid #fb5b21;
+  overflow: hidden;
+  transition: 0.6s;
+}
 .card-btn {
   background-color: #fb5b21;
   padding: 5px 30px;
