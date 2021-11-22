@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useFirebase from '../../hooks/useFirebase';
@@ -7,9 +7,24 @@ import './Header.css';
 
 const Header = () => {
     const { user, logOut } = useFirebase();
+    const [bg, setBg] = useState(false);
+    const cngBg = () => {
+        if (window.scrollY >= 450) {
+            setBg(true);
+        } else {
+            setBg(false)
+        }
+
+    }
+    useEffect(() => {
+        cngBg()
+        window.addEventListener("scroll", cngBg)
+    }, [bg])
+    console.log(bg);
+
     return (
 
-        <Navbar className='header' bg="black" expand="lg">
+        <Navbar fixed="top" className='header' bg={!bg ? 'transparent' : 'black'} expand="lg">
 
             <Navbar.Brand href="#"> <img src={logo} alt="" className="logo" />  </Navbar.Brand>
 

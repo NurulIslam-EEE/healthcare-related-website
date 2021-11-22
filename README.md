@@ -12,4 +12,4 @@ Live cite of [Iconic Fitness](https://healthcare-related-websi-b4d2f.web.app/).
 
 ### Firebase authentication to authenticate users
 
-### User information on navbar
+### User name and profile picture on navbar
